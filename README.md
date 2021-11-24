@@ -8,6 +8,7 @@ Se vuoi vedere altri esercizi [qui](https://github.com/GiorCocc/programmi-liceo)
 
 1. **verifica_07102021.c** : Fare un programma che preveda le seguenti elaborazioni, utilizzando un vettore di 50 elementi: generare 50 valori interi (nell'intervallo tra 1 e 100); stampare il vettore; sommare in una variabile tutti i valori; in un'altra variabile contare i valori uguali a 17; Scegliere l'opportuno sottoprogramma (funzione o procedura) e dare in output i valori calcolati. Ogni voce dell'elenco equivale a 2 punti, 1 punto per le chiamate corrette dei sottoprogrammi e 1 per il `main`.
 2. **recupero_10102021.c** : correzione della verifica del 7 ottobre con esercizio bonus: durante il conteggio degli elementi uguale a 17, salvare in un vettore la posizione di questi elementi e stamparla
+3. **recupero_24112021.c** :
 
 ## Istruzioni per l'utilizzo dei file
 
