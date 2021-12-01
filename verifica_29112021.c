@@ -78,8 +78,8 @@ void contaRighe()
     {
         while (!feof(fp)) //ciclo fino alla fine del file
         {
-            fscanf(fp, "%c", &numero); //prelevo il primo carattere della riga
-            if (numero == '\n')        //controllo che non sia un fine riga (altrimenti significa che sono arrivato alla fine del file perchè i numeri sono salvati come %d\n)
+            fscanf(fp, "%c", &numero); //prelevo l'ultimo carattere della riga (ovvero /n)
+            if (numero == '\n')        //controllo che sia un fine riga (altrimenti significa che sono arrivato alla fine del file perchè i numeri sono salvati come %d\n)
             {
                 cont++; //conto
             }
